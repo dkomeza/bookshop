@@ -1,0 +1,57 @@
+# Node
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Build output
+dist/
+build/
+.cache/
+.tmp/
+
+# Vite
+.vite/
+vite.config.ts.timestamp-*
+
+# TypeScript
+*.tsbuildinfo
+
+# Logs
+logs
+*.log
+*.log.*
+
+# Environment files
+.env
+.env.local
+.env.*.local
+
+# SQLite database
+*.sqlite
+*.sqlite3
+*.db
+*.db-journal
+
+# OS / Editor junk
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+*.swn
+*.swm
+
+# IDE
+.vscode/
+.idea/
+*.iml
+
+# Coverage / testing
+coverage/
+.nyc_output/
+
+# Misc
+*.tgz
+
+backend/public
